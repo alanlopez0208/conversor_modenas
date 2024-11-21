@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Font?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" styleClass="panel"
+      fx:controller="org.example.conversor_monedas.controllers.HistorialController">
+    <padding>
+        <Insets left="20" right="20" top="20" bottom="20"/>
+    </padding>
+    <BorderPane.margin>
+        <Insets left="10" bottom="20" top="20" right="10" />
+    </BorderPane.margin>
+    <Label text="Historial de Conversion" styleClass="titulo">
+        <font>
+            <Font name="Montserrat Bold" size="24"/>
+        </font>
+    </Label>
+    <Region prefHeight="20"/>
+    <TableView styleClass="tabla" fx:id="tabla">
+        <columns>
+            <TableColumn text="Pais Origen" fx:id="columPaisOrigen"/>
+            <TableColumn text="Pais Resultado" fx:id="columnPaisResultado"/>
+            <TableColumn text="Conversion" fx:id="columnAmonut"/>
+            <TableColumn text="Fecha" fx:id="columnFecha"/>
+        </columns>
+    </TableView>
+
+</VBox>

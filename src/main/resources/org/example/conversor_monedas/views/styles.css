@@ -1,0 +1,106 @@
+.root{
+    -fx-background-color: #282727;
+    -fx-font-family: 'Montserrat';
+}
+
+
+.label{
+    -fx-text-fill: #808080;
+}
+
+.titulo{
+    -fx-text-fill:black;
+}
+
+
+.panel{
+    -fx-background-color: #f6f7f8;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+#panelText{
+    -fx-min-height: 100%;
+    -fx-alignment: center;
+}
+
+.btn{
+    -fx-shape: "M25,50A25,25 0 1,1 25,0A25,25 0 1,1 25,50Z";
+}
+
+.selected{
+    -fx-background-color: #413dfa;
+}
+.selected .icon{
+    -fx-fill: white;
+}
+
+.unselected{
+    -fx-background-color: white;
+}
+.unselected .icon{
+    -fx-fill: #535A66;
+}
+
+.combo{
+    -fx-pref-width: 300;
+    -fx-background-color:  #f6f7f8;
+}
+
+.textField{
+    -fx-background-color: #EFEFEF;
+    -fx-border-radius: 30;
+    -fx-font-family: "Montserrat Bold";
+    -fx-font-size: 20;
+}
+
+
+#btnConvertir{
+    -fx-background-color: #413dfa;
+}
+
+
+.combo .list-view{
+    -fx-background-color: white;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 10;
+}
+
+.combo .list-view .list-cell{
+    -fx-padding: 10;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-background-insets: 5px, 0px ;
+
+}
+
+.combo .list-view .list-cell:hover{
+    -fx-background-color: rgba(65, 61, 250, 0.5);
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+.combo .list-view .list-cell:selected {
+    -fx-background-color: #413dfa;
+}
+.combo .list-view .list-cell:selected .label {
+    -fx-text-fill: white;
+}
+
+
+
+
+/*
+.tabla .column-header-background .filler{
+    -fx-background-color: red;
+}
+
+.tabla .column-header{
+    -fx-background-color: yellow;
+}
+
+.tabla .column-header-background{
+    -fx-background-color: #651FFF;
+    -fx-border-radius: 14;
+    -fx-background-insets: 0 0 10 0;
+}*/
